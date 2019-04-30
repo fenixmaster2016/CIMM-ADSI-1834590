@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Grupos de Etiquetas CSS</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cimm-adsi.github.io/lms/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=ABeeZee|Bad+Script|Quicksand|Ubuntu|Jura|Maven+Pro|Shadows+Into+Light+Two' rel='stylesheet' type='text/css'> -->
+
+    <!-- CSS -->
+    <link href="https://cimm-adsi.github.io/lms/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cimm-adsi.github.io/lms/css/colorPanels.css" rel="stylesheet">
+    <link href="https://cimm-adsi.github.io/lms/css/main.css" rel="stylesheet">
+
+    <!-- Estilos DataTables -->
+    <!--<link rel="stylesheet" type="text/css" href="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/css/dataTables.bootstrap.css">-->
+
+    <!-- Estilos BootGrid -->
+    <!-- <link href="https://cimm-adsi.github.io/lms/js/bootgrid-1.2.0/jquery.bootgrid.css" rel="stylesheet"> -->
+
+    <!-- Local
+    <link href="bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+     -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container-fluid">
+    </br>
+    <div class="row">
+        <div class="col-md-12 cuerpo">
+
+            <div class="card">
+                <div class="card-header">
+                    Asignación de Propiedades Por Grupos
+                </div>
+                <div class="card-body content">
+                    <div class="row align-items-start">
+
+                        <!-- Card 01 -->
+                        <div class="card text-black border-primary m-2" style="max-width: 17.5rem;">
+                            <div class="card-header bg-light">
+                                <ul class="nav nav-pills mb-0" id="myTabG1" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="temas-tabG1" data-toggle="tab" href="#temasG1" role="tab" aria-controls="temasG1" aria-selected="true">Temas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="integrantes-tabG1" data-toggle="tab" href="#integrantesG1" role="tab" aria-controls="integrantesG1" aria-selected="false">Integrantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="myTabContentG1">
+                                <div class="tab-pane fade show active" id="temasG1" role="tabpanel" aria-labelledby="temas-tabG1">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-primary">Grupo 1</li>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Selectores de ID, Universal, Elemento, Anidados (Coma, Espacio, >, +, ~), Atributos</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Pseudo-classes, Pseudo-elementos.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Unidades Absolutas y Relativas</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Soporte Navegador Unidades.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Prefijos Navegadores.</p>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="integrantesG1" role="tabpanel" aria-labelledby="integrantes-tabG1">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-primary">Grupo 1</li>
+                                        <li class="list-group-item list-group-item-action">Cahueño Becerra Dania Nathalia</li>
+                                        <li class="list-group-item list-group-item-action">Diaz Albarracin Juan Pablo</li>
+                                        <li class="list-group-item list-group-item-action">Rosero Gonzalez Jhon Sebastian</li>
+                                        <li class="list-group-item list-group-item-action">Murillo Lara Maria Alejandra</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer text-black text-right">
+                                <span class="text-right"><strong>Fecha:</strong> 17/05/2018</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 02 -->
+                        <div class="card text-black border-success m-2" style="max-width: 17.5rem;">
+                            <div class="card-header bg-light">
+                                <ul class="nav nav-pills mb-0" id="myTabG2" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="temas-tabG2" data-toggle="tab" href="#temasG2" role="tab" aria-controls="temasG2" aria-selected="true">Temas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="integrantes-tabG2" data-toggle="tab" href="#integrantesG2" role="tab" aria-controls="integrantesG2" aria-selected="false">Integrantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="myTabContentG2">
+                                <div class="tab-pane fade show active" id="temasG2" role="tabpanel" aria-labelledby="temas-tabG2">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-success">Grupo 2</li>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Colores por Nombre, Hexadecimal, RGB, HSL, Opacity, RGBA y HSLA</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Sombras en CSS3.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Degradados en CSS3.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Imagenes y Filtros.</p>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="integrantesG2" role="tabpanel" aria-labelledby="integrantes-tabG2">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-success">Grupo 2</li>
+                                        <li class="list-group-item list-group-item-action">Bonilla Montaña Junior Harvey</li>
+                                        <li class="list-group-item list-group-item-action">Bautista Balaguera John Alexander</li>
+                                        <li class="list-group-item list-group-item-action">Ramirez Rueda Jhonatan</li>
+                                        <li class="list-group-item list-group-item-action">Ponguta Perez Duvan Javier</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer text-black text-right">
+                                <span class="text-right"><strong>Fecha:</strong> 17/05/2018</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 03 -->
+                        <div class="card text-black border-danger m-2" style="max-width: 17.5rem;">
+                            <div class="card-header bg-light">
+                                <ul class="nav nav-pills mb-0" id="myTabG3" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="temas-tabG3" data-toggle="tab" href="#temasG3" role="tab" aria-controls="temasG3" aria-selected="true">Temas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="integrantes-tabG3" data-toggle="tab" href="#integrantesG3" role="tab" aria-controls="integrantesG3" aria-selected="false">Integrantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="myTabContentG3">
+                                <div class="tab-pane fade show active" id="temasG3" role="tabpanel" aria-labelledby="temas-tabG3">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-danger">Grupo 3</li>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Background, Ancho y Alto, Margenes, Padding, Margin Collapse, Bordes, Posición Relativa y Absoluta</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Box Model y Box Sizing.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Displays en CSS (Block, Inline, Inline-Block y None).</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Displays Flex y Table Cell.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Floats, Border Radius y Outline.</p>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="integrantesG3" role="tabpanel" aria-labelledby="integrantes-tabG3">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-danger">Grupo 3</li>
+                                        <li class="list-group-item list-group-item-action">Tibaduiza Vega Ana Maria</li>
+                                        <li class="list-group-item list-group-item-action">Reyes Gomez Sebastian</li>
+                                        <li class="list-group-item list-group-item-action">Salcedo Guecha Dixon Fabian</li>
+                                        <li class="list-group-item list-group-item-action">Torres Barrera Sebastian Camilo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer text-black text-right">
+                                <span class="text-right"><strong>Fecha:</strong> 17/05/2018</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 04 -->
+                        <div class="card text-black border-info m-2" style="max-width: 17.5rem;">
+                            <div class="card-header bg-light">
+                                <ul class="nav nav-pills mb-0" id="myTabG4" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="temas-tabG4" data-toggle="tab" href="#temasG4" role="tab" aria-controls="temasG4" aria-selected="true">Temas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="integrantes-tabG4" data-toggle="tab" href="#integrantesG4" role="tab" aria-controls="integrantesG4" aria-selected="false">Integrantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="myTabContentG4">
+                                <div class="tab-pane fade show active" id="temasG4" role="tabpanel" aria-labelledby="temas-tabG4">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-info">Grupo 4</li>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Font Family, Face, Size, Style, Weight y Variant.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Text Decoration, Transform, Color y Alignment.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Interlineado e Identacion</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Espaciado entre letras.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Listas.</p>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="integrantesG4" role="tabpanel" aria-labelledby="integrantes-tabG4">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-info">Grupo 4</li>
+                                        <li class="list-group-item list-group-item-action">Sanchez Montaña Carlos Daniel</li>
+                                        <li class="list-group-item list-group-item-action">Salcedo Alarcon Angie Lorena</li>
+                                        <li class="list-group-item list-group-item-action">Riaño Nossa Nestor Javier</li>
+                                        <li class="list-group-item list-group-item-action">Wilches Godoy Johant Sebastian</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer text-black text-right">
+                                <span class="text-right"><strong>Fecha:</strong> 17/05/2018</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 05 -->
+                        <div class="card text-black border-warning m-2" style="max-width: 17.3rem;">
+                            <div class="card-header bg-light">
+                                <ul class="nav nav-pills mb-0" id="myTabG5" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="temas-tabG5" data-toggle="tab" href="#temasG5" role="tab" aria-controls="temasG5" aria-selected="true">Temas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="integrantes-tabG5" data-toggle="tab" href="#integrantesG5" role="tab" aria-controls="integrantesG5" aria-selected="false">Integrantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="myTabContentG5">
+                                <div class="tab-pane fade show active" id="temasG5" role="tabpanel" aria-labelledby="temas-tabG5">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-warning">Grupo 5</li>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Icon Fonts: Awesome, Material Design, Bootstrap, Typicons, Devicons.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Icon Fonts: Colores, Animaciones, Tamaños. </p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Transformaciones 2D y 3D.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Animaciones.</p>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <p class="mb-1" style="font-size: 14px">Media Queries.</p>
+                                        </a>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="integrantesG5" role="tabpanel" aria-labelledby="integrantes-tabG5">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-center list-group-item-warning">Grupo 5</li>
+                                        <li class="list-group-item list-group-item-action">Gomez Garcia Kevin Steven</li>
+                                        <li class="list-group-item list-group-item-action">Arismendy Araque Yensy Yuleima</li>
+                                        <li class="list-group-item list-group-item-action">Rincon Fonseca Dayana Milena</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer text-black text-right">
+                                <span class="text-right"><strong>Fecha:</strong> 17/05/2018</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-footer text-muted" dir="rtl">
+                    <strong>Ultima Actualización: </strong>17/05/2018
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- JS -->
+<script type="text/javascript" src="https://cimm-adsi.github.io/lms/js/jquery-3.3.1.js"></script>
+<script src="https://cimm-adsi.github.io/lms/bootstrap-4.0.0/js/bootstrap.bundle.min.js"></script>
+
+<!-- Data Tables JS -->
+<!--
+<script type="text/javascript" language="javascript" src="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" language="javascript" src="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/js/dataTables.bootstrap.js"></script>
+-->
+
+<!-- Local
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+-->
+<script type="text/javascript">
+/*    $(document).ready(function() {
+        $('#tableDT').DataTable( {
+            "language": {
+                "url": "https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/language/Spanish.json"
+            },
+            "order": [[ 1, "asc" ]],
+            "ajax": "https://cimm-adsi.github.io/lms/Anuncios/Desarrollo/G02_HTML/data/DatosTagsAprendices.txt"
+        });
+    } );*/
+</script>
+
+</body>
+</html>

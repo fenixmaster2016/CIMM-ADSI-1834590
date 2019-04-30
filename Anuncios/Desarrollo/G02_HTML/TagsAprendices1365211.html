@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Grupos de Trabajo Etiquetas HTML</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cimm-adsi.github.io/lms/font-awesome-4.6.3/css/font-awesome.min.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=ABeeZee|Bad+Script|Quicksand|Ubuntu|Jura|Maven+Pro|Shadows+Into+Light+Two' rel='stylesheet' type='text/css'> -->
+
+    <!-- CSS -->
+    <link href="https://cimm-adsi.github.io/lms/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cimm-adsi.github.io/lms/css/colorPanels.css" rel="stylesheet">
+    <link href="https://cimm-adsi.github.io/lms/css/main.css" rel="stylesheet">
+
+    <!-- Estilos DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/css/dataTables.bootstrap.css">
+
+    <!-- Estilos BootGrid -->
+    <!-- <link href="https://cimm-adsi.github.io/lms/js/bootgrid-1.2.0/jquery.bootgrid.css" rel="stylesheet"> -->
+
+    <!-- Local
+    <link href="bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+     -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container-fluid">
+    </br>
+    <div class="row">
+        <div class="col-md-12 cuerpo">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Asignación de Etiquetas Por Aprendiz</h3>
+                </div>
+                <div class="panel-body">
+                    <table id="tableDT" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                        <tr>
+                            <th>Apellidos</th>
+                            <th>Nombres</th>
+                            <th>Tag 1</th>
+                            <th>Tag 2</th>
+                            <th>Tag 3</th>
+                            <th>Tag 4</th>
+                            <th>Tag 5</th>
+                            <th>Tag 6</th>
+                        </tr>
+                        </thead>
+                        <tfoot>
+                        <tr>
+                            <th>Apellidos</th>
+                            <th>Nombres</th>
+                            <th>Tag 1</th>
+                            <th>Tag 2</th>
+                            <th>Tag 3</th>
+                            <th>Tag 4</th>
+                            <th>Tag 5</th>
+                            <th>Tag 6</th>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="panel-footer"><strong>Ultima Actualización: </strong>27/04/2018</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS -->
+<script type="text/javascript" src="https://cimm-adsi.github.io/lms/js/jquery-1.12.4.js"></script>
+<script src="https://cimm-adsi.github.io/lms/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Data Tables JS -->
+<script type="text/javascript" language="javascript" src="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" language="javascript" src="https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/media/js/dataTables.bootstrap.js"></script>
+
+<!-- Local
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#tableDT').DataTable( {
+            "language": {
+                "url": "https://cimm-adsi.github.io/lms/js/DataTables-1.10.12/language/Spanish.json"
+            },
+            "order": [[ 1, "asc" ]],
+            "ajax": "https://cimm-adsi.github.io/lms/Anuncios/Desarrollo/G02_HTML/data/DatosTagsAprendices1365211.txt"
+        });
+    } );
+</script>
+
+</body>
+</html>

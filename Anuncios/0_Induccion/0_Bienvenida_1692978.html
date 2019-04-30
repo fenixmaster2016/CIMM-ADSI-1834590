@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bienvenida - Inducción</title>
+
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cimm-adsi.github.io/lms/font-awesome-4.6.3/css/font-awesome.min.css">
+		<!-- <link href='https://fonts.googleapis.com/css?family=ABeeZee|Bad+Script|Quicksand|Ubuntu|Jura|Maven+Pro|Shadows+Into+Light+Two' rel='stylesheet' type='text/css'> -->
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://cimm-adsi.github.io/lms/css/themes-jquery-ui/excite-bike/jquery-ui.css">
+		<link href="https://cimm-adsi.github.io/lms/css/colorPanels.css" rel="stylesheet">
+		<link href="https://cimm-adsi.github.io/lms/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cimm-adsi.github.io/lms/css/main.css" rel="stylesheet">
+		<link href="https://cimm-adsi.github.io/lms/css/styleFicha.css" rel="stylesheet">
+
+		<!-- Local
+		<link href="bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		-->
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+		<div class="container-fluid">
+
+			<div class="row col-lg-offset-3 row col-md-offset-2 row col-sm-offset-1">
+				<div class="titulo container" style="margin:20px;">
+					<div class="col-sm-12 thumbnail text-center">
+						<div class=".col-md-4">
+							<img alt="" class="img-responsive" src="https://cimm-adsi.github.io/lms/images/encabezados/header_bienvenida.png" alt="Bienvenida Aprendices">
+						</div>
+                        <div class="col-lg-6 col-md-10 col-sm-12 col-xs-11" style="/*border: 3px solid black;*/">
+                            <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 caption" style="width: 80px;">
+                                <div>
+                                    <span class="col-lg-offset-10 col-md-offset-3 col-sm-offset-5 col-xs-offset-7"><strong>1501718</strong></span>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-10 col-sm-10 col-sm-offset-1 cuerpo">
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Bienvenida Aprendices</h3>
+						</div>
+						<div class="panel-body">
+
+							<div class="row">
+
+								<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" >
+									<p>Reciban un cordial saludo aprendices:</p>
+									<p>El SENA les da la bienvenida a este escenario virtual creado con el fin de facilitarles la gestión académica de su
+										proceso formativo integrando las tecnologías de información y comunicación. </p>
+									<p>Recuerden que puede consultar los videos sobre el manejo de la plataforma. Los encuentran dando clic en el botón del menú de la parte izquierda de la pantalla de su curso "<strong>Demo Manejo Plataforma</strong>".</p>
+									<p>Los invitamos a navegar y hacer uso de cada una de las herramientas que conforman este nuevo espacio de conocimiento.</p>
+									<p>Att:</p>
+								</div>
+
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
+									<p><img src="https://cimm-adsi.github.io/lms/images/welcome.png" align="center" width="200px" height="200px" class="img-responsive"></p>
+								</div>
+
+							</div>
+
+
+
+
+
+						</div>
+
+						<div class="panel-footer"><strong>Ultima Actualización: </strong>02/10/2017</div>
+					</div>
+				</div>
+			</div>
+			<div class="row"><div class="col-sm-10 col-sm-offset-1"><div class="bg_body">&nbsp;</div></div></div>
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-1"><div class="nombre_tutor"> <strong>Diego Ojeda</strong><br/><small>Ins. Área Técnica</small></div></div>
+			</div>
+
+		</div>
+
+	    <!-- JS -->
+	    <script type="text/javascript" src="https://cimm-adsi.github.io/lms/js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="https://cimm-adsi.github.io/lms/js/jquery-ui.js"></script>
+		<script src="https://cimm-adsi.github.io/lms/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cimm-adsi.github.io/lms/js/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+
+		<script type="application/javascript">
+            $(document).ready(function() {
+                $('#rootwizard').bootstrapWizard();
+            });
+
+            $(document).keyup(function (e) {
+                if (e.keyCode == 37) { //Left
+                    $('#btnPrevious').click();
+                    e.preventDefault();
+                    return false;
+                }
+                if (e.keyCode == 39) { //Right
+                    $('#btnNext').click();
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+		</script>
+
+	</body>
+</html>
